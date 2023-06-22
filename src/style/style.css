@@ -1,0 +1,80 @@
+/* NoteApp Styles */
+.note-app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* NoteForm Styles */
+  .note-form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .note-form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .note-form-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .note-form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* NoteList Styles */
+  .note-list {
+    margin-top: 20px;
+  }
+  
+  .note {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .note h3 {
+    margin-top: 0;
+  }
+  
+  .note p {
+    margin-bottom: 10px;
+  }
+  
+  .note button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .note button:hover {
+    background-color: #d32f2f;
+  }
+  
